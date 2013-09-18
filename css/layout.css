@@ -223,3 +223,11 @@ h3 span.small {
     font-weight: normal;
 
 }
+
+img#about-headshot {
+    float: right;
+    width: 200px;
+    margin: 0 1em 10px 2em;
+    margin-left: 30px;
+
+}
