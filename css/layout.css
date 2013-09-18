@@ -183,11 +183,12 @@ span.page_number {
 
 div.post {
   margin-top: 2em;
-
 }
 
 div.post-content {
   padding: auto 1.5em;
+  margin-left: 2em;
+  max-width: 35em;
 }
 
 div.post pre {
@@ -199,6 +200,10 @@ div.post-content hr {
   margin: 0 10em;
 }
 
+div.post-content h2 {
+    font-size: 1.25em;
+}
+
 h2.post-title {
   margin-bottom: .5em;
 }
@@ -206,6 +211,11 @@ h2.post-title {
 div.pagination {
   margin: 1em auto 0;
   text-align: center;
+}
+
+h1#post-title {
+    font-size: 1.75em;
+    margin-bottom: .5em;
 }
 
 h3 span.small {
