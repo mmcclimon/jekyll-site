@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="google-site-verification" content="sVbzfPZIdEtahwfMSgyzl_aIQgwyL3FxID9BhEpyy-w" />
+  <title>{{ page.title }}</title>
+  <link href="/css/layout.css" rel="stylesheet" type="text/css" />
+  <link href="/img/favicon.ico" type="shortcut icon">
+  {% for script in page.js_files %}<script src="{{script}}"></script>
+  {% endfor %}
+  {% for sheet in page.css_files %}<link rel="stylesheet" href="{{sheet}}"/>
+  {% endfor %}
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <div class="nav">
+      <ul>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </div>
+    <a href="/"><img src="/img/header.png" alt="Michael J. McClimon" style="width:96px;display:block;" /></a>
+  </div>
+
+  <div class="content">
+
+  {{ content }}
+
+  </div>
+
+  <div class="footer">
+    <p>Michael J. McClimon, 2013 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/80x15.png"/></a></p>
+  </div>
+</div>
+</body>
+</html>
+

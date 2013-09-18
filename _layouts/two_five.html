@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>{{ page.title }}</title>
+  <link href="/css/ii-V.css" rel="stylesheet" type="text/css" />
+  <link href="/img/favicon.ico" type="shortcut icon">
+  {% for script in page.js_files %}<script src="{{script}}"></script>
+  {% endfor %}
+  {% for sheet in page.css_files %}<link rel="stylesheet" href="{{sheet}}"/>
+  {% endfor %}
+</head>
+<body>
+
+<div class="header">
+  <h2>Jazz Harmony, Transformations, and ii&ndash;V Space</h2>
+  <div class="nav">
+  <ul>
+    <li><a href="/ii-V/">Home</a></li>
+    <li><a href="/ii-V/examples.html">Examples</a></li>
+    <li><a href="/ii-V/biblio.html">References</a></li>
+  </ul>
+  </div>
+</div> <!-- end .header -->
+
+<div class="container">
+  <div class="content">
+
+    {{ content }}
+
+  </div>
+</div>
+
+<div class="footer">
+  <p> <a href="/">Michael J. McClimon</a>, 2013 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/us/80x15.png" align="right"/></a>  </p>
+  <!-- end .footer --></div>
+
+</body>
+</html>
