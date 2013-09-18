@@ -1,10 +1,15 @@
-name: Michael J. McClimon
+name: Michael J. McClimon - Blog
+description: Michael writes about music, programming, and other stuff.
+url: http://www.mcclimon.org/blog/
+
+timezone: America/Indianapolis
 baseurl: /
 permalink: /blog/:categories/:year/:month/:day/:title.html
+
 paginate: 5
 paginate_path: /blog/page:num
-markdown: redcarpet
-timezone: America/Indianapolis
+
 pygments: true
+markdown: redcarpet
 redcarpet:
   extensions: [smart]
