@@ -1,6 +1,7 @@
-@import "neat/neat";
-
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Cardo:400,400italic,700);
+
+@import "bourbon/bourbon";
+@import "neat/neat";
 
 $serif: "Cardo", Garamond, Georgia, "Times New Roman", Times, serif;
 $sans-serif: "PT Sans Narrow", "Helvetica Neue 300", Helvetica, sans-serif;
@@ -245,4 +246,22 @@ div#bioPics {
       padding: 15px;
     }
   }
+}
+
+div#cv {
+  p { margin: 0; }
+  ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-left: 1.75em;
+  }
+  ul li {
+    margin: 0;
+    padding: 0;
+    &.list-header {
+      font-style: italic;
+      list-style-type: none;
+    }
+  }
+
 }
