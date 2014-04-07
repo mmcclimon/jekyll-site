@@ -1,16 +1,30 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Cardo:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode"), url("/css/woff/Junicode.woff"); }
+
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode"), url("/css/woff/Junicode-Bold.woff");
+  font-weight: bold; }
+
+@font-face {
+  font-family: Junicode;
+  src: local("Junicode"), url("/css/woff/Junicode-Italic.woff");
+  font-weight: italic; }
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: "Cardo", Garamond, Georgia, "Times New Roman", Times, serif;
-  font-size: 11pt;
+  font-family: Junicode, Garamond, Georgia, "Times New Roman", Times, serif;
+  font-size: 12pt;
   line-height: 1.5;
   background: #6d6e70;
   margin: 0;
