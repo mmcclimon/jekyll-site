@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: Junicode;
-    src: local("Junicode"), url("/css/woff/Junicode-Bold.woff");
+    src: local("Junicode-Bold"), url("/css/woff/Junicode-Bold.woff");
     font-weight: bold;
 }
 
 @font-face {
     font-family: Junicode;
-    src: local("Junicode"), url("/css/woff/Junicode-Italic.woff");
+    src: local("Junicode-Italic"), url("/css/woff/Junicode-Italic.woff");
     font-style: italic;
 }

@@ -7,17 +7,14 @@
 @font-face {
   font-family: Junicode;
   src: local("Junicode"), url("/css/woff/Junicode.woff"); }
-
 @font-face {
   font-family: Junicode;
-  src: local("Junicode"), url("/css/woff/Junicode-Bold.woff");
+  src: local("Junicode-Bold"), url("/css/woff/Junicode-Bold.woff");
   font-weight: bold; }
-
 @font-face {
   font-family: Junicode;
-  src: local("Junicode"), url("/css/woff/Junicode-Italic.woff");
+  src: local("Junicode-Italic"), url("/css/woff/Junicode-Italic.woff");
   font-style: italic; }
-
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
   margin: 0;
   padding: 0; }
@@ -53,10 +50,11 @@ h2 {
   margin-bottom: .75em; }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   line-height: 1em;
   margin-top: 1em;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-weight: normal; }
 
 h4 {
   font-size: 1em;
@@ -89,6 +87,9 @@ a {
     text-decoration: none; }
   a img {
     border: none; }
+
+code {
+  font-size: 0.85em; }
 
 /* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
 .container {
@@ -140,9 +141,9 @@ a {
 .content {
   padding: 10px 0; }
   .content ul, .content ol {
-    padding: 0 15px 15px 40px; }
+    padding: 0 15px 15px 50px; }
   .content ul {
-    list-style-type: square; }
+    list-style-type: disc; }
   .content li {
     margin-top: .725em; }
   .content ul ul {
@@ -270,3 +271,5 @@ div#cv ul li {
   div#cv ul li.list-header {
     font-style: italic;
     list-style-type: none; }
+
+/*# sourceMappingURL=layout.css.map */
