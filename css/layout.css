@@ -259,17 +259,41 @@ img#about-headshot {
     vertical-align: top;
     padding: 15px; } }
 
-div#cv p {
-  margin: 0; }
-div#cv ul {
-  list-style-position: inside;
-  padding: 0;
-  margin-left: 1.75em; }
-div#cv ul li {
-  margin: 0;
-  padding: 0; }
-  div#cv ul li.list-header {
-    font-style: italic;
+div#cv {
+  margin-bottom: 2em; }
+  div#cv p {
+    margin: 0; }
+  div#cv p.mtop {
+    margin-top: 0.75em; }
+  div#cv h3 {
+    font-weight: bold;
+    margin-top: 1.5em; }
+  div#cv ul {
+    list-style-position: inside;
+    padding: 0;
+    margin-left: 1.75em; }
+  div#cv ul li {
+    margin: 0;
+    padding: 0;
     list-style-type: none; }
+    div#cv ul li:before {
+      content: "\00b7\0020"; }
+    div#cv ul li.list-header {
+      font-style: italic; }
+      div#cv ul li.list-header:before {
+        content: ""; }
+  div#cv div.cv-content {
+    margin-left: 2em; }
+  div#cv h5 {
+    font-weight: bold; }
+  div#cv h5 + h5 {
+    margin-top: 1.5em; }
+
+div#tune-list h3 {
+  margin-top: 1.75em;
+  margin-bottom: .85em;
+  font-size: 1.1em; }
+div#tune-list p {
+  margin-left: 2em; }
 
 /*# sourceMappingURL=layout.css.map */
