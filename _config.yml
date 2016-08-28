@@ -10,7 +10,5 @@ paginate: 5
 paginate_path: /blog/page:num
 excerpt_separator: <!-- more -->
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: [smart]
+highlighter: rouge
+markdown: kramdown
