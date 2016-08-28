@@ -1,23 +1,12 @@
 ---
 layout: default
-title: Michael J. McClimon
+title: Michael McClimon | Home
 ---
 
 <h3>Welcome!</h3>
-<p>Welcome to my home on the web. I’m a music theorist interested in jazz
-(especially the music of Thelonious Monk), transformational theory, and
-Schenkerian theory and analysis, among other things. Here you can find some
-information about me and my (mostly) professional life. Enjoy!</p>
-
-<h3>Recent Blog Posts <span class="small">(<a href="/blog/">read all</a>)</span></h3>
-<ul>
-{% for i in (0..4) %}
-  {% assign post = site.posts[i] %}
-  {% if post %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
-  {% endif %}
-{%  endfor %}
-</ul>
+<p>Welcome to my home on the web. I’m a music theorist interested in jazz,
+ transformational theory, and lots of other things. Here you can find some
+ information about me and my (mostly) professional life. Enjoy!</p>
 
 <div id="connect">
     <h3>Find me online</h3>
@@ -27,4 +16,3 @@ information about me and my (mostly) professional life. Enjoy!</p>
         href="http://www.github.com/mmcclimon">&nbsp;mmcclimon</a></li>
     </ul>
 </div>
-
