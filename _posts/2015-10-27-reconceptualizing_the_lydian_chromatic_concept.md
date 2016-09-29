@@ -7,7 +7,7 @@ date: 2015-10-27 18:11
 "Reconceptualizing the *Lydian Chromatic Concept*: George Russell as
 Historical Theorist"<br>
 Michael McClimon<br>
-Society for Music Theory, St. Louis, Missouri, October 31, 2015</p>
+Society for Music Theory, St. Louis, Missouri, October 31, 2015
 
 
 - [Handout](//files.mcclimon.org/projects/lcc-smt-handout.pdf)
