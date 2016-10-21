@@ -12,3 +12,5 @@ excerpt_separator: <!-- more -->
 
 highlighter: rouge
 markdown: kramdown
+
+gems: [jekyll-paginate]
