@@ -1,6 +1,5 @@
-# mcclimon.org
+# mcclimon.org -- Outdated
 
-This is my website, hosted (now) on Github pages, generated with Jekyll. Feel
-free to poke around, but nothing too much exciting going on.
+This repository is no longer the source for my website.
 
 Contact: michael@mcclimon.org
